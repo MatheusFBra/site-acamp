@@ -21,37 +21,61 @@
 }
 
 body{
-    background-color: var(--cor4);
+    background-color: #f0f0f0;
     font-family: 'Times New Roman', Times, serif;
 }
 
 header{
-    background-image:linear-gradient(to left, var(--cor3), var(--cor4), var(--cor0)) ;
-    padding: 30px;
-    color: white;
-    line-height: 2.4em;
-    text-align: center;
-    font-size: large;
+    background-image:linear-gradient(to bottom ,var(--cor3), var(--cor2),  transparent);
+    width: 100vw;
+    margin: auto;
 }
 
+
+header > #logo{
+    height:200px;
+    background-image: url(/img/logo1_reduzida.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    background-position: top;
+    
+}
+
+
+
 header > h1{
-    text-shadow: 0px 0px 4PX rgba(0, 0, 0, 0.298);
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.822);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: -75px;
     padding: 10px;
+    
+}
+
+header > h3{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 45px;
 }
 
 main{
-    background-color: white;
+    
+    
+    color: black;
     width: 750px;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.253);
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.459);
 }
 
 main > p{
     padding:10px 5px 10px 5px;
-    line-height: 35px;
+    line-height: 60px;
 }
 
 footer{
-
+    text-align: center;
+    padding: 40px;
 }
