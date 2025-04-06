@@ -64,7 +64,8 @@ main{
     
     
     color: black;
-    width: 750px;
+    min-width: 250px;
+    max-width: 750px;
     margin: auto;
     border-radius: 10px;
     box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.459);
